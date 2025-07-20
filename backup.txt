@@ -21,7 +21,126 @@
 
     <!-- CSS interno permanece igual -->
     <style>
-        /* ... [o mesmo CSS que você já tinha] ... */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .content-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-section h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .content-section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .cta {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .cta a {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.1em;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .cta a:hover {
+            background-color: #0056b3;
+        }
+
+        .news-section {
+            margin-top: 40px;
+        }
+
+        .news-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .news-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .news-list li {
+            background-color: #e9ecef;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .news-list li a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .news-list li p {
+            margin-top: 5px;
+            font-size: 0.95em;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        .special-message {
+            background-color: #222;
+            color: #ff9800;
+            font-size: 1.2em;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .special-message span {
+            font-weight: bold;
+        }
+        
     </style>
 </head>
 <body>
